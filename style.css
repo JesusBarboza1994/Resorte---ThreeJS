@@ -1,5 +1,45 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
 }
 
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    background: rgb(24,24,24);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    height: 100px;
+    
+}
+
+.webgl
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    mix-blend-mode: exclusion;
+}
+
+.container h1{
+    color: green;
+    text-align: center;
+}
+
+.content{
+    justify-content: center;
+}
+
+canvas{
+    height: 400px;
+    width: 400px;
+}
